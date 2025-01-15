@@ -44,4 +44,15 @@ public class Spieler {
     public void setMarktwert(String marktwert) {
         this.marktwert = marktwert;
     }
+
+   @Override
+
+    public String toString() {
+        return "Medication{" +
+                "name='" + name + '\'' +
+                ", alter=" + alter +
+                ", position=" + position +
+                ", marktwert='"+ marktwert+ '\'' +
+                '}';
+    }
 }
